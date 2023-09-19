@@ -5,7 +5,6 @@ filter.addEventListener('keyup',filterItem)
 form.addEventListener('submit',addItem)
 
 
-
 //addItem function
 function addItem(e){
     e.preventDefault()
