@@ -29,11 +29,11 @@ function addItem(e){
     edBtn.className="btn btn-success btn-sm float-right"
     //add text node to button
     edBtn.appendChild(document.createTextNode('Edit'))
+    //add new item as li element text node
+    li.appendChild(document.createTextNode(newItem))
     //adding edit and delete buttons to the new li element
     li.appendChild(edBtn)
     li.appendChild(delBtn)
-    //add new item as li element text node
-    li.appendChild(document.createTextNode(newItem))
     
     //adding li element to the list element
     itemList.appendChild(li)
