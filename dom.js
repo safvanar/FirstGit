@@ -7,7 +7,7 @@
 var header=document.getElementById("main-header")
 header.style.borderBottom="solid 3px #000"
 var title=document.getElementById("mainTitle")
-title.style.fontWeight="bold"
+title.style.fontWeight="bold"//100-900
 title.style.color='green'
 
 
